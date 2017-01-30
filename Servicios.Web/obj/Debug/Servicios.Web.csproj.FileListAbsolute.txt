@@ -1,0 +1,5 @@
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Web\bin\Servicios.Web.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Web\bin\Servicios.Web.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Web\obj\Debug\Servicios.Web.csprojResolveAssemblyReference.cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Web\obj\Debug\Servicios.Web.dll
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Web\obj\Debug\Servicios.Web.pdb

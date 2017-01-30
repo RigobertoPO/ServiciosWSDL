@@ -1,0 +1,9 @@
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\bin\Debug\Servicios.Windows.exe.config
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\bin\Debug\Servicios.Windows.exe
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\bin\Debug\Servicios.Windows.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.csprojResolveAssemblyReference.cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.Form1.resources
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.Properties.Resources.resources
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.csproj.GenerateResource.Cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.exe
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Servicios.Windows\obj\Debug\Servicios.Windows.pdb

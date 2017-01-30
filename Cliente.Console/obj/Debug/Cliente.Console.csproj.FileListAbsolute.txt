@@ -1,0 +1,6 @@
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\bin\Debug\Cliente.Console.exe.config
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\bin\Debug\Cliente.Console.exe
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\bin\Debug\Cliente.Console.pdb
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\obj\Debug\Cliente.Console.csprojResolveAssemblyReference.cache
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\obj\Debug\Cliente.Console.exe
+C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\Cliente.Console\obj\Debug\Cliente.Console.pdb
