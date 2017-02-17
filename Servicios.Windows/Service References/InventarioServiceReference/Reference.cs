@@ -127,6 +127,13 @@ namespace Servicios.Windows.InventarioServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ObtenerInventario", ReplyAction="*")]
         System.Threading.Tasks.Task<Servicios.Windows.InventarioServiceReference.ObtenerInventarioResponse> ObtenerInventarioAsync(Servicios.Windows.InventarioServiceReference.ObtenerInventarioRequest request);
+        
+        // CODEGEN: Generating message contract since element name descripcion from namespace http://tempuri.org/ is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InsertarInventario", ReplyAction="*")]
+        Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse InsertarInventario(Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InsertarInventario", ReplyAction="*")]
+        System.Threading.Tasks.Task<Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse> InsertarInventarioAsync(Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -251,6 +258,86 @@ namespace Servicios.Windows.InventarioServiceReference {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class InsertarInventarioRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="InsertarInventario", Namespace="http://tempuri.org/", Order=0)]
+        public Servicios.Windows.InventarioServiceReference.InsertarInventarioRequestBody Body;
+        
+        public InsertarInventarioRequest() {
+        }
+        
+        public InsertarInventarioRequest(Servicios.Windows.InventarioServiceReference.InsertarInventarioRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class InsertarInventarioRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int numero;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string descripcion;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
+        public string color;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=3)]
+        public decimal precio;
+        
+        public InsertarInventarioRequestBody() {
+        }
+        
+        public InsertarInventarioRequestBody(int numero, string descripcion, string color, decimal precio) {
+            this.numero = numero;
+            this.descripcion = descripcion;
+            this.color = color;
+            this.precio = precio;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class InsertarInventarioResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="InsertarInventarioResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Servicios.Windows.InventarioServiceReference.InsertarInventarioResponseBody Body;
+        
+        public InsertarInventarioResponse() {
+        }
+        
+        public InsertarInventarioResponse(Servicios.Windows.InventarioServiceReference.InsertarInventarioResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class InsertarInventarioResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public bool InsertarInventarioResult;
+        
+        public InsertarInventarioResponseBody() {
+        }
+        
+        public InsertarInventarioResponseBody(bool InsertarInventarioResult) {
+            this.InsertarInventarioResult = InsertarInventarioResult;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface WebServiceInventarioSoapChannel : Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap, System.ServiceModel.IClientChannel {
     }
@@ -330,6 +417,37 @@ namespace Servicios.Windows.InventarioServiceReference {
             Servicios.Windows.InventarioServiceReference.ObtenerInventarioRequest inValue = new Servicios.Windows.InventarioServiceReference.ObtenerInventarioRequest();
             inValue.Body = new Servicios.Windows.InventarioServiceReference.ObtenerInventarioRequestBody();
             return ((Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap)(this)).ObtenerInventarioAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap.InsertarInventario(Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest request) {
+            return base.Channel.InsertarInventario(request);
+        }
+        
+        public bool InsertarInventario(int numero, string descripcion, string color, decimal precio) {
+            Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest inValue = new Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest();
+            inValue.Body = new Servicios.Windows.InventarioServiceReference.InsertarInventarioRequestBody();
+            inValue.Body.numero = numero;
+            inValue.Body.descripcion = descripcion;
+            inValue.Body.color = color;
+            inValue.Body.precio = precio;
+            Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse retVal = ((Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap)(this)).InsertarInventario(inValue);
+            return retVal.Body.InsertarInventarioResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse> Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap.InsertarInventarioAsync(Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest request) {
+            return base.Channel.InsertarInventarioAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse> InsertarInventarioAsync(int numero, string descripcion, string color, decimal precio) {
+            Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest inValue = new Servicios.Windows.InventarioServiceReference.InsertarInventarioRequest();
+            inValue.Body = new Servicios.Windows.InventarioServiceReference.InsertarInventarioRequestBody();
+            inValue.Body.numero = numero;
+            inValue.Body.descripcion = descripcion;
+            inValue.Body.color = color;
+            inValue.Body.precio = precio;
+            return ((Servicios.Windows.InventarioServiceReference.WebServiceInventarioSoap)(this)).InsertarInventarioAsync(inValue);
         }
     }
 }

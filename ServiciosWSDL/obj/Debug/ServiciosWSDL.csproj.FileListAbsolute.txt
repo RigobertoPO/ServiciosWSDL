@@ -1,5 +1,4 @@
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\ServiciosWSDL\bin\ServiciosWSDL.dll
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\ServiciosWSDL\bin\ServiciosWSDL.pdb
-C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\ServiciosWSDL\obj\Debug\ServiciosWSDL.csprojResolveAssemblyReference.cache
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\ServiciosWSDL\obj\Debug\ServiciosWSDL.dll
 C:\Users\rperez\Documents\Visual Studio 2012\Projects\ServiciosWSDL\ServiciosWSDL\obj\Debug\ServiciosWSDL.pdb

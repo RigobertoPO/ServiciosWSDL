@@ -83,6 +83,9 @@
     <None Include="Service References\InventarioServiceReference\Servicios.Windows.InventarioServiceReference.HelloWorldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\InventarioServiceReference\Servicios.Windows.InventarioServiceReference.InsertarInventarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\InventarioServiceReference\Servicios.Windows.InventarioServiceReference.Inventario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

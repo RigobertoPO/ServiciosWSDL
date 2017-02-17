@@ -16,7 +16,7 @@ namespace ServiciosWSDL
     // [System.Web.Script.Services.ScriptService]
     public class WebServiceInventario : System.Web.Services.WebService
     {
-
+        
         [WebMethod]
         public string HelloWorld()
         {
@@ -25,9 +25,9 @@ namespace ServiciosWSDL
         [WebMethod]
         public int  SumaNumeros(int Numero1, int numero2)
         {
-
             return Numero1+numero2;
         }
+
         [WebMethod]
         public List<Inventario> ObtenerInventario()
         {
@@ -45,6 +45,21 @@ namespace ServiciosWSDL
             nuevoInventario.Color = "Rojo";
             listaInvetario.Add(nuevoInventario);
             return listaInvetario;
+        }
+        [WebMethod]
+        public bool InsertarInventario(int numero, string descripcion, string color, decimal precio)
+        {
+            try
+            {
+                List<Inventario> listaInvetario = new List<Inventario>();  //define la lista
+                listaInvetario.Add(new Inventario { NumeroInventario = numero, Descripcion = descripcion, Precio = precio, Color = color });
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
 
     }
